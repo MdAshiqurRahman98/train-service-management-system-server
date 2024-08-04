@@ -8,13 +8,16 @@
    cd train-service-management
 
 2. Install dependencies:
+   ```bash
    npm install
 
 3. Create a `.env` file and add the following variables:
+   ```makefile
    MONGODB_URI=your_mongodb_uri
    JWT_SECRET=your_jwt_secret
 
 4. Run the server:
+   ```bash
    npm start
 
 5. API Endpoints:
